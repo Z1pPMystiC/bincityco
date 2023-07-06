@@ -19,11 +19,11 @@ function HomePage() {
             </p>
         </div>
         <div className='large-img-container'>
-            <img src="/images/chicago-skyline.jpg" alt="logo" className='large-img'/>
+            <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
         </div>
         <div className='text-box-container'>
             <p className='text-box-text'>
-                BUY ANYHTHING IN THE BINS FOR $9 OR LESS
+                BUY ANYTHING IN THE BINS FOR $9 OR LESS
             </p>
         </div>
         <div className='img-grid-container'>
@@ -67,6 +67,38 @@ function HomePage() {
                     <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
                 </div>
             </div>
+        </div>
+        <div className='large-img-container'>
+            <img src="/images/weekly-pricing.png" alt="pricing" className='large-img'/>
+        </div>
+        <div className='text-box-container'>
+            <p className='text-box-text'>
+                STORE HOURS
+            </p>
+        </div>
+        <div className='large-img-container'>
+            <img src="/images/store-hours.png" alt="hours" className='large-img'/>
+        </div>
+        <div className='text-box-container'>
+            <p className='text-box-text'>
+                HOW DOES OUR BIN STORE WORK?
+            </p>
+        </div>
+        <div className='large-img-container'>
+            <img src="/images/how-it-works.png" alt="how" className='large-img'/>
+        </div>
+        <div className='text-box-container'>
+            <p className='text-box-text'>
+                OUR STORE
+            </p>
+        </div>
+        <div className='large-img-container'>
+            <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
+        </div>
+        <div className='text-box-container'>
+            <p className='text-box-text'>
+                GET IN TOUCH WITH US
+            </p>
         </div>
     </div>
   )
