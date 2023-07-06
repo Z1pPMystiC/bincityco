@@ -100,6 +100,35 @@ function HomePage() {
                 GET IN TOUCH WITH US
             </p>
         </div>
+        <div className='contact-container'>
+            <div className='map-location'>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.480105521969!2d-89.60391948459588!3d40.68542277933485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880a59174d648437%3A0x96ac9743f579ee50!2s1000%20SW%20Jefferson%20Ave%2C%20Peoria%2C%20IL%2061605!5e0!3m2!1sen!2sus!4v1688670400291!5m2!1sen!2sus" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='google-maps'></iframe>
+            </div>
+            <div className='location-container'>
+                <div className='contact-text-big-container'>
+                    <div className='location-text-container'>
+                        <p className='location-title-text'>
+                            Location:
+                        </p>
+                        <p className='location-text'>
+                            1000 SW Jefferson Ave, Peoria, IL 61605
+                        </p>
+                    </div>
+                    <div className='contact-text-container'>
+                        <p className='contact-title-text'>
+                            Contact Us:
+                        </p>
+                        <p className='contact-text'>
+                            Email: <a href="mailto:info@bincityco.com?subject=I%20Just%20Saw%20Your%20Website%21">info [at] bincityco [dot] com</a>
+                        </p>
+                    </div>
+                </div>
+                <div className='follow-us-container'>
+
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
