@@ -27,7 +27,7 @@
 }
 
 .nav-link-home {
-  color: red;
+  color: rgb(2, 0, 143);
   text-decoration: none;
 }
 
@@ -37,9 +37,10 @@
 }
 
 .navbar-logo {
-  color: #262626;
-  text-decoration: none;
   margin-left: 100px;
-  font-size: 3rem;
-  font-weight: bold;
+}
+
+.logo-img {
+  height: 100px;
+  width: auto;
 }

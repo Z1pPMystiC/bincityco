@@ -28,7 +28,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        Bin City Co
+                        <img src="/images/BinCityCo Logo.png" alt="logo" className='logo-img'/>
                     </Link>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
