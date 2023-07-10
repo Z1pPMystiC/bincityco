@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
+import FAQPage from '../FAQPage'
 
 function FAQ() {
   return (
     <>
       <Navbar />
-      <div>FAQ</div>
+      <FAQPage />
       <Footer />
     </>
   )
