@@ -120,7 +120,7 @@ function HomePage() {
                             Contact Us:
                         </p>
                         <p className='contact-text'>
-                            Email: <a href="mailto:info@bincityco.com?subject=I%20Just%20Saw%20Your%20Website%21">info [at] bincityco [dot] com</a>
+                            Emai: <a href="mailto:info@bincityco.com?subject=I%20Just%20Saw%20Your%20Website%21">info [at] bincityco [dot] com</a>
                         </p>
                     </div>
                 </div>
