@@ -1,8 +1,9 @@
 .navbar {
   display: flex;
   border-bottom: solid 2px;
-  border-color: #AAAAAA;
+  border-color: #c5a975;
   height: 150px;
+  background-color: #262626;
 }
 
 .navbar-container {
@@ -27,7 +28,7 @@
 }
 
 .nav-link-home {
-  color: rgb(2, 0, 143);
+  color: #c5a975;
   text-decoration: none;
 }
 
@@ -41,6 +42,6 @@
 }
 
 .logo-img {
-  height: 100px;
+  height: 150px;
   width: auto;
 }

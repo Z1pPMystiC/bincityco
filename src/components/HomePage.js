@@ -109,7 +109,7 @@ function HomePage() {
                 <div className='contact-text-big-container'>
                     <div className='location-text-container'>
                         <p className='location-title-text'>
-                            Location:
+                            LOCATION
                         </p>
                         <p className='location-text'>
                             1000 SW Jefferson Ave, Peoria, IL 61605
@@ -117,15 +117,24 @@ function HomePage() {
                     </div>
                     <div className='contact-text-container'>
                         <p className='contact-title-text'>
-                            Contact Us:
+                            CONTACT US
                         </p>
                         <p className='contact-text'>
-                            Emai: <a href="mailto:info@bincityco.com?subject=I%20Just%20Saw%20Your%20Website%21">info [at] bincityco [dot] com</a>
+                            Email: <a href="mailto:info@bincityco.com?subject=I%20Just%20Saw%20Your%20Website%21" className='email'>info [at] bincityco [dot] com</a>
                         </p>
                     </div>
                 </div>
                 <div className='follow-us-container'>
-
+                    <div className='follow-us-text'>
+                        FOLLOW OUR SOCIALS
+                    </div>
+                    <div className='social-media-button-container'>
+                        <a href='https://linktr.ee/bincity?fbclid=PAAaYvIr-KFwKFEESrl6e_TLvIxuUBDejuIjyPirX3N3_nQBjilg1St0dj5bY_aem_Adj0EgOmuVodMswJw4negLuJxed2IqIPI5bcVhgnDsYb3PCKgpnOqOjhsaOh3wfZSFQ'>
+                            <button className='social-media-button'>
+                                Linktree
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

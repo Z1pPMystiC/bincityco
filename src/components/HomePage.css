@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    /* background-color: #262626; */
+    background-color: #777777;
 }
 
 .featured-container {
@@ -13,12 +13,15 @@
     height: 200px;
     justify-content: center;
     margin-top: 2vh;
-    border: solid;
+    border: solid #c5a975;
+    background-color: #262626;
 }
 
 .featured-text {
+    margin-top: 10px;
     font-size: 25px;
     font-weight: bolder;
+    color: #c5a975;
 }
 
 .video-container {
@@ -40,8 +43,8 @@
 .text-box-container {
     display: flex;
     justify-content: center;
-    background-color: lightblue;
-    border: solid;
+    background-color: #262626;
+    border: solid #c5a975;
     width: 100%;
     max-width: 1000px;
     margin-top: 25px;
@@ -52,6 +55,7 @@
     font-weight: bolder;
     text-align: center;
     margin: 10px;
+    color: #c5a975;
 }
 
 .large-img-container {
@@ -99,7 +103,6 @@
     width: 100%;
     max-width: 1000px;
     margin-top: 25px;
-    border: solid;
 }
 
 .map-location {
@@ -114,12 +117,94 @@
     aspect-ratio: 1 / 1;
 }
 
+.location-text-container {
+    margin-top: 25px;
+    width: 50%;
+    background-color: #262626;
+    color: #c5a975;
+    padding: 10px;
+    border: solid #c5a975;
+}
+
+.location-title-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.location-text {
+    margin-top: 25px;
+}
+
 .contact-text-big-container {
     display: flex;
 }
 
 .contact-text-container {
     margin-left: 25px;
+    margin-top: 25px;
+    background-color: #262626;
+    color: #c5a975;
+    padding: 10px;
+    border: solid #c5a975;
+    width: 50%;
+}
+
+.contact-title-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-text {
+    margin-top: 25px;
+}
+
+.email {
+    color: #777777;
+}
+
+.follow-us-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.follow-us-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social-media-button {
+    font-size: 25px;
+    background-color: #c5a975;
+    color: black;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    margin: 25px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: font-size 100ms ease-out 100ms
+}
+
+.social-media-button:hover {
+    animation-name: hover;
+    font-size: 30px;
+}
+
+@keyframes hover {
+    0% {
+        background-color: #c5a975;
+        color: black;
+    }
+    50% {
+        background-color: black;
+        color: #c5a975;
+    }
+    100% {
+        background-color: #c5a975;
+        color: black;
+    }
 }
 
 @media only screen and (max-width: 650px) {

@@ -28,7 +28,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        <img src="/images/BinCityCo Logo.png" alt="logo" className='logo-img'/>
+                        <img src="/images/Transparent Logo.png" alt="logo" className='logo-img'/>
                     </Link>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
