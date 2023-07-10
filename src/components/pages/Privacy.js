@@ -2,14 +2,14 @@ import React from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 
-function About() {
+function Privacy() {
   return (
     <>
       <Navbar />
-      <div>About</div>
+      <div>Privacy</div>
       <Footer />
     </>
   )
 }
 
-export default About
+export default Privacy

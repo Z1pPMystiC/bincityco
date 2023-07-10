@@ -1,0 +1,39 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px #c5a975;
+    height: 250px;
+    background-color: #262626;
+    margin: 0;
+}
+
+.footer-main-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-img {
+    height: 190px;
+    width: auto;
+}
+
+.privacy-policy-text {
+    color: #c5a975;
+}
+
+.footer-copyright-container {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    border-top: solid 2px #c5a975;
+    align-items: center;
+}
+
+.copyright-text {
+    color: #c5a975;
+    margin-left: 25px;
+}
