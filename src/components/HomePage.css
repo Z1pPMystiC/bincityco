@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background-color: #777777;
+    background-color: #555555;
 }
 
 .featured-container {
@@ -108,13 +108,18 @@
 .map-location {
     width: 100%;
     max-width: 400px;
+    aspect-ratio: 1 / 1;
     margin: 10px;
+    border: solid #c5a975;
+    line-height: 0;
+    margin-bottom: 20px;
 }
 
 .google-maps {
-    border: 0;
+    border: 5px;
     width: 100%;
     aspect-ratio: 1 / 1;
+    filter: invert(90%) contrast(83%) hue-rotate(180deg);
 }
 
 .location-text-container {
@@ -172,6 +177,7 @@
 .follow-us-text {
     font-size: 20px;
     font-weight: bold;
+    color: #c5a975;
 }
 
 .social-media-button {
