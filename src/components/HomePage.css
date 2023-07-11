@@ -1,3 +1,7 @@
+::selection {
+    background: #555555;
+}
+
 .home-container {
     display: flex;
     flex-direction: column;
@@ -183,9 +187,9 @@
 .social-media-button {
     font-size: 25px;
     background-color: #c5a975;
-    color: black;
+    color: #262626;
     border-radius: 10px;
-    border: 0;
+    border: solid 5px #262626;
     padding: 10px;
     margin: 25px;
     animation-duration: 2s;
@@ -201,15 +205,18 @@
 @keyframes hover {
     0% {
         background-color: #c5a975;
-        color: black;
+        color: #262626;
+        border: solid 5px #262626;
     }
     50% {
-        background-color: black;
+        background-color: #262626;
         color: #c5a975;
+        border: solid 5px #c5a975;
     }
     100% {
         background-color: #c5a975;
-        color: black;
+        color: #262626;
+        border: solid 5px #262626;
     }
 }
 
