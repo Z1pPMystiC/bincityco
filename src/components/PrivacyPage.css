@@ -1,0 +1,15 @@
+.privacy-container {
+    height: 90vh;
+    padding: 10%;
+    background-color: #555555;
+}
+
+.privacy-title-text {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+}
+
+.privacy-text {
+    margin-top: 25px;
+}
