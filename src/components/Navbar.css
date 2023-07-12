@@ -1,7 +1,6 @@
 .navbar {
   display: flex;
-  border-bottom: solid 2px;
-  border-color: #c5a975;
+  border-bottom: solid 2px #c5a975;
   height: 150px;
   background-color: #262626;
 }

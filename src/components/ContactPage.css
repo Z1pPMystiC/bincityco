@@ -1,0 +1,126 @@
+.contact-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90vh;
+    background-color: #555555;
+}
+
+.contact-us-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.contact-us-text-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+    color: #c5a975;
+    border: solid #c5a975;
+    height: 250px;
+    width: 50%;
+    max-width: 400px;
+    justify-content: center;
+    padding: 2%;
+}
+
+.contact-us-title-text {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #c5a975;
+}
+
+.contact-us-subtitle-text {
+    margin-top: 10px;
+    color: #bbb;
+}
+
+.contact-us-details-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+    color: #c5a975;
+    border: solid #c5a975;
+    height: 250px;
+    width: 50%;
+    max-width: 400px;
+    justify-content: center;
+    padding: 2%;
+}
+
+.contact-detail {
+    display: flex;
+    margin: 20px;
+}
+
+.contact-detail-title-text {
+    font-weight: bolder;
+    color: #c5a975;
+}
+
+.contact-detail-text {
+    margin-left: 5px;
+    color: #bbb;
+}
+
+.socials {
+    color: #bbb;
+}
+
+.visit-us-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 25px;
+}
+
+.visit-us-text-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+    color: #c5a975;
+    border: solid #c5a975;
+    height: 250px;
+    width: 50%;
+    max-width: 400px;
+    justify-content: center;
+    padding: 2%;
+}
+
+.visit-us-map-container {
+    border: solid #c5a975;
+    height: 100%;
+    width: 50%;
+    max-width: 800px;
+    line-height: 0;
+}
+
+.visit-us-map {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    filter: invert(90%) contrast(83%) hue-rotate(180deg);
+}
+
+.visit-us-title-text {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #c5a975;
+}
+
+.visit-us-subtitle-text {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #c5a975;
+}
+
+.visit-us-text {
+    margin-top: 10px;
+    color: #bbb;
+}

@@ -9,7 +9,7 @@ function FAQPage() {
                 FAQ
             </div>
             <div className='faq-subtitle-text'>
-                Frequently asked questions
+                The most frequently asked questions and answers
             </div>
         </div>
         <div className='question-container'>
