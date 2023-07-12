@@ -4,8 +4,12 @@ import './PrivacyPage.css'
 function PrivacyPage() {
   return (
     <div className='privacy-container'>
-        <div className='privacy-title-text'>
-            Privacy Policy
+      <div className='privacy-border'>
+        <div className='privacy-title-container'>
+          <div className='privacy-title-text'>
+              Privacy Policy
+          </div>
+          <img src="/images/Transparent Logo Symbol.png" alt="logo" className='logo-title-img'/>
         </div>
         <div className='accent' />
         <div className='privacy-text'>
@@ -37,6 +41,7 @@ function PrivacyPage() {
             <br/><br/>
             This policy is effective as of 1 July 2023.
         </div>
+      </div>
     </div>
   )
 }

@@ -6,6 +6,18 @@
     background-color: #555555;
 }
 
+.privacy-border {
+    background-color: #262626;
+    border: solid #c5a975;
+    padding: 2%;
+}
+
+.privacy-title-container {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
 .privacy-title-text {
     font-size: 50px;
     font-weight: bolder;

@@ -3,7 +3,7 @@ import './HomePage.css'
 
 function HomePage() {
   return (
-    <div className='home-container'> 
+    <div className='home-container'>
         {/* <div className='featured-container'>
             <p className='featured-text'>
                 Featured On:
@@ -13,13 +13,15 @@ function HomePage() {
             <iframe className='youtube-vid' src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
             <iframe className='youtube-vid' src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
         </div> */}
-        <div className='text-box-container'>
-            <p className='text-box-text'>
-                ILLINOIS' PREMIER LIQUIDATION BIN STORE
-            </p>
-        </div>
-        <div className='large-img-container'>
-            <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
+        <div className='home-section-container'>
+            <div className='text-box-container'>
+                <p className='text-box-text'>
+                    ILLINOIS' PREMIER LIQUIDATION BIN STORE
+                </p>
+            </div>
+            <div className='large-img-container'>
+                <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
+            </div>
         </div>
         <div className='text-box-container'>
             <p className='text-box-text'>
@@ -68,16 +70,13 @@ function HomePage() {
                 </div>
             </div>
         </div>
+        <div className='home-section-container'>
         <div className='large-img-container'>
             <img src="/images/weekly-pricing.png" alt="pricing" className='large-img'/>
         </div>
-        <div className='text-box-container'>
-            <p className='text-box-text'>
-                STORE HOURS
-            </p>
-        </div>
         <div className='large-img-container'>
             <img src="/images/store-hours.png" alt="hours" className='large-img'/>
+        </div>
         </div>
         <div className='text-box-container'>
             <p className='text-box-text'>

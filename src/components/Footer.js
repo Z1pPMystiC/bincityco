@@ -6,9 +6,9 @@ function Footer() {
   return (
     <div className='footer-container'>
         <div className='footer-main-container'>
-            <div className='logo-container'>
+            <Link to='/' className='logo-container'>
                 <img src="/images/Transparent Logo Symbol.png" alt="logo" className='logo-img'/>
-            </div>
+            </Link>
             <div className='logo-container'>
                 <Link to='/privacy-policy' className='privacy-policy-text'>
                     Privacy Policy
