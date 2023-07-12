@@ -6,7 +6,7 @@ function AboutPage() {
     <div className='about-container'>
         <div className='about-content-container'>
             <div className='logo-about-container'>
-                <img src="/images/Transparent Logo.png" alt="logo" className='logo-about-img'/>
+                <img src="/images/Transparent Logo Simple.png" alt="logo" className='logo-about-img'/>
             </div>
             <div className='about-text-container'>
                 <div className='about-title'>

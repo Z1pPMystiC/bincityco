@@ -7,7 +7,7 @@ function Footer() {
     <div className='footer-container'>
         <div className='footer-main-container'>
             <div className='logo-container'>
-                <img src="/images/Transparent Logo.png" alt="logo" className='logo-img'/>
+                <img src="/images/Transparent Logo Symbol.png" alt="logo" className='logo-img'/>
             </div>
             <div className='logo-container'>
                 <Link to='/privacy-policy' className='privacy-policy-text'>

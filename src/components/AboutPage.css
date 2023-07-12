@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     background-color: #555555;
-    height: 90vh;
+    padding: 5%;
 }
 
 .about-content-container {
@@ -12,6 +12,9 @@
 }
 
 .logo-about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
     max-width: 500px;
     background-color: #262626;
@@ -19,7 +22,7 @@
 }
 
 .logo-about-img {
-    width: 100%;
+    width: 50%;
 }
 
 .about-text-container {

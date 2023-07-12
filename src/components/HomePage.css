@@ -126,6 +126,12 @@
     filter: invert(90%) contrast(83%) hue-rotate(180deg);
 }
 
+.location-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .location-text-container {
     margin-top: 25px;
     width: 50%;
@@ -176,6 +182,13 @@
     flex-direction: column;
     margin-top: 25px;
     align-items: center;
+    background-color: #262626;
+    color: #c5a975;
+    border: solid #c5a975;
+    width: 50%;
+    max-width: 500px;
+    justify-content: center;
+    padding: 2%;
 }
 
 .follow-us-text {
