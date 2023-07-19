@@ -14,13 +14,23 @@ function HomePage() {
             <iframe className='youtube-vid' src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
         </div> */}
         <div className='home-section-container'>
-            <div className='text-box-container'>
-                <p className='text-box-text'>
-                    ILLINOIS' PREMIER LIQUIDATION BIN STORE
+            <div className='large-img-container'>
+                <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
+            </div>
+            <div className='side-text-box-container'>
+                <p className='side-text-box-text'>
+                    ILLINOIS' PREMIER LIQUIDATION <br/> BIN STORE
+                </p>
+            </div>
+        </div>
+        <div className='home-section-container'>
+            <div className='side-text-box-container'>
+                <p className='side2-text-box-text'>
+                    HOW DOES BIN CITY WORK?
                 </p>
             </div>
             <div className='large-img-container'>
-                <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
+                <img src="/images/how-it-works.png" alt="how" className='large-img'/>
             </div>
         </div>
         <div className='text-box-container'>
@@ -80,19 +90,16 @@ function HomePage() {
         </div>
         <div className='text-box-container'>
             <p className='text-box-text'>
-                HOW DOES OUR BIN STORE WORK?
-            </p>
-        </div>
-        <div className='large-img-container'>
-            <img src="/images/how-it-works.png" alt="how" className='large-img'/>
-        </div>
-        <div className='text-box-container'>
-            <p className='text-box-text'>
                 OUR STORE
             </p>
         </div>
-        <div className='large-img-container'>
-            <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
+        <div className='large-imgs-container'>
+            <div className='large-img-container'>
+                <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
+            </div>
+            <div className='large-img-container'>
+                <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
+            </div>
         </div>
         <div className='text-box-container'>
             <p className='text-box-text'>
