@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 90vh;
     background-color: #555555;
     padding-bottom: 100px;
+    height: 90vh;
 }
 
 .contact-us-container {
@@ -123,4 +123,52 @@
 .visit-us-text {
     margin-top: 10px;
     color: #bbb;
+}
+
+@media only screen and (max-height: 700px) { 
+    .contact-page-container {
+        height: 1500px;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    .contact-page-container {
+        height: 1500px;
+    }
+    
+    .contact-us-container {
+        height: 700px;
+        flex-direction: column;
+    }
+
+    .contact-us-text-container {
+        width: 100%;
+        max-width: 1000px;
+    }
+    
+    .contact-us-details-container {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    .contact-page-container {
+        padding: 2%;
+    }
+
+    .visit-us-container {
+        flex-direction: column-reverse;
+        height: 700px;
+    }
+
+    .visit-us-text-container {
+        width: 100%;
+        max-width: 1000px;
+    }
+    
+    .visit-us-map-container {
+        width: 100%;
+        max-width: 1000px;
+        height: 50%;
+        aspect-ratio: 1 / 1;
+    }
 }

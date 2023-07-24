@@ -100,14 +100,13 @@
     border: solid #c5a975;
     width: 100%;
     max-width: 1000px;
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 .text-box-text {
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
-    margin: 10px;
     color: #c5a975;
 }
 
@@ -129,6 +128,7 @@
     justify-content: center;
     width: 100%;
     max-width: 1200px;
+    margin-bottom: 25px;
 }
 
 .img-grid-container {
