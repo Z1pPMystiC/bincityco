@@ -8,7 +8,7 @@
     width: 100%;
     align-items: center;
     background-color: #555555;
-    padding-top: 25px;
+    padding: 25px 0;
 }
 
 .featured-container {
@@ -304,12 +304,22 @@
         flex-direction: column;
         align-items: center;
     }
+
     .img-grid-half-row-container {
         margin-top: 10px;
         width: 100%;
     }
+
     .contact-container {
         flex-direction: column;
         align-items: center; 
+    }
+
+    .side-text-box-text {
+        font-size: 6vw;
+    }
+    
+    .side2-text-box-text {
+        font-size: 6vw;
     }
 }
