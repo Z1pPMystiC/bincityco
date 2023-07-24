@@ -11,8 +11,6 @@ function Navbar() {
         console.log("Hamburger active");
         navMenu.classList.toggle("active");
         console.log("Navmenu active");
-
-        document.body.classList.toggle('lock-scroll');
     }
 
     return (
