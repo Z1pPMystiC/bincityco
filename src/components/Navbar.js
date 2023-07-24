@@ -1,60 +1,56 @@
-import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css';
 
 function Navbar() {
-    const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
+    
+    const toggleMobileMenu = () => {
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
 
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
+        hamburger.classList.toggle("active");
+        console.log("Hamburger active");
+        navMenu.classList.toggle("active");
+        console.log("Navmenu active");
+    }
 
-    const showButton = () => {
-        if (window.innerWidth <= 960) {
-            setButton(false);
-        } else {
-            setButton(true);
-        }
-    };
-
-    useEffect(() => {
-        showButton();
-    }, []);
-
-    window.addEventListener('resize', showButton);
+ 
+    
     
     return (
-        <>
+        <div className='navbar-container'>
             <nav className='navbar'>
-                <div className='navbar-container'>
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        <img src="/images/Transparent Logo Simple.png" alt="logo" className='logo-nav-img'/>
-                    </Link>
-                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        <li className='nav-item'>
-                            <Link to='/' className='nav-link-home' onClick={closeMobileMenu}>
-                                Home
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/faq' className='nav-links' onClick={closeMobileMenu}>
-                                FAQ
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                                About
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
-                                Contact
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
+                <Link to='/' className='navbar-logo'>
+                    <img src="/images/Transparent Logo Simple.png" alt="logo" className='logo-nav-img'/>
+                </Link>
+                <ul className='nav-menu'>
+                    <li className='nav-item'>
+                        <Link to='/' className='nav-links' onClick={toggleMobileMenu}>
+                            Home
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/faq' className='nav-links' onClick={toggleMobileMenu}>
+                            FAQ
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/about' className='nav-links' onClick={toggleMobileMenu}>
+                            About
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/contact' className='nav-links' onClick={toggleMobileMenu}>
+                            Contact
+                        </Link>
+                    </li>
+                </ul>
             </nav>
-        </>
+            <div class='hamburger' onClick={toggleMobileMenu}>
+                <span className='bar'></span>
+                <span className='bar'></span>
+                <span className='bar'></span>
+            </div>
+        </div>
     )
 }
 

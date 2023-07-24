@@ -8,6 +8,7 @@
     width: 100%;
     align-items: center;
     background-color: #555555;
+    padding-top: 25px;
 }
 
 .featured-container {
@@ -42,6 +43,14 @@
     aspect-ratio: 16 / 9;
     width: 100%;
     margin-top: 25px;
+}
+
+.home-section-reverse-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .home-section-container {
@@ -282,6 +291,15 @@
 }
 
 @media only screen and (max-width: 650px) {
+    .home-section-reverse-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .home-section-container {
+        flex-direction: column;
+    }
+    
     .img-grid-row-container {
         flex-direction: column;
         align-items: center;

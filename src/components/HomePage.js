@@ -10,10 +10,10 @@ function HomePage() {
             </p>
         </div>
         <div className='video-container'>
-            <iframe className='youtube-vid' src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-            <iframe className='youtube-vid' src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            <iframe className='youtube-vid' src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowFullscreen></iframe>
+            <iframe className='youtube-vid' src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowFullscreen></iframe>
         </div> */}
-        <div className='home-section-container'>
+        <div className='home-section-reverse-container'>
             <div className='large-img-container'>
                 <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
             </div>
@@ -109,7 +109,7 @@ function HomePage() {
         <div className='contact-container'>
             <div className='map-location'>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.480105521969!2d-89.60391948459588!3d40.68542277933485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880a59174d648437%3A0x96ac9743f579ee50!2s1000%20SW%20Jefferson%20Ave%2C%20Peoria%2C%20IL%2061605!5e0!3m2!1sen!2sus!4v1688670400291!5m2!1sen!2sus" 
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='google-maps'></iframe>
+                allowFullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='google-maps' title='Map of Location'></iframe>
             </div>
             <div className='location-container'>
                 <div className='contact-text-big-container'>
