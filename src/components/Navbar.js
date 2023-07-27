@@ -20,26 +20,28 @@ function Navbar() {
                     <img src="/images/Transparent Logo Simple.png" alt="logo" className='logo-nav-img'/>
                 </Link>
                 <ul className='nav-menu'>
-                    <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={toggleMobileMenu}>
-                            Home
-                        </Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link to='/faq' className='nav-links' onClick={toggleMobileMenu}>
-                            FAQ
-                        </Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link to='/about' className='nav-links' onClick={toggleMobileMenu}>
-                            About
-                        </Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link to='/contact' className='nav-links' onClick={toggleMobileMenu}>
-                            Contact
-                        </Link>
-                    </li>
+                    <div className='nav-items'>
+                        <li className='nav-item'>
+                            <Link to='/' className='nav-links' onClick={toggleMobileMenu}>
+                                Home
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='/faq' className='nav-links' onClick={toggleMobileMenu}>
+                                FAQ
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='/about' className='nav-links' onClick={toggleMobileMenu}>
+                                About
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='/contact' className='nav-links' onClick={toggleMobileMenu}>
+                                Contact
+                            </Link>
+                        </li>
+                    </div>
                 </ul>
             </nav>
             <div class='hamburger' onClick={toggleMobileMenu}>

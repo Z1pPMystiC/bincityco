@@ -95,7 +95,7 @@
 
   .nav-menu {
     position: fixed;
-    left: -100%;
+    left: -110%;
     gap: 0;
     top: 0px;
     flex-direction: column;
@@ -107,6 +107,12 @@
     transition: 0.3s;
     height: 100vh;
     z-index: 1;
+    display: block;
+  }
+
+  .nav-items {
+    width: 100%;
+    height: 90vh;
   }
 
   .nav-item {
