@@ -3,7 +3,7 @@ html * {
 }
 
 .hero-section-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("C:\Users\mishm\Documents\Github\bincityco\public\images\peoria-skyline.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../../public/images/peoria-skyline.png");
   background-position: 0 120px;
   background-repeat: no-repeat;
   background-size: cover;
