@@ -9,7 +9,7 @@ function HeroSection() {
                     Welcome to Bin City
                 </div>
                 <div className='hero-section-subtitle-text'>
-                    Peoria's #1 bin store blyat
+                    Peoria's #1 bin store
                 </div>
             </div>
         </div>

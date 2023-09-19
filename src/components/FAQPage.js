@@ -18,7 +18,7 @@ function FAQPage() {
           </div>
           <div className='accent' />
           <div className='question-text'>
-            A store with bins blyat
+            A store with bins
           </div>
         </div>
         <div className='question-container'>
@@ -27,7 +27,7 @@ function FAQPage() {
           </div>
           <div className='accent' />
           <div className='question-text'>
-            Absolutely not blyat
+            No
           </div>
         </div>
         <div className='question-container'>
@@ -36,7 +36,7 @@ function FAQPage() {
           </div>
           <div className='accent' />
           <div className='question-text'>
-            United States Dollars blyat what you want to pay with lev dolbayo?
+            Cash only
           </div>
         </div>
         <div className='question-container'>
@@ -45,7 +45,7 @@ function FAQPage() {
           </div>
           <div className='accent' />
           <div className='question-text'>
-            When we're open blyat, what u gonna break in?
+            When we're open
           </div>
         </div>
         <div className='question-container'>
@@ -54,7 +54,7 @@ function FAQPage() {
           </div>
           <div className='accent' />
           <div className='question-text'>
-            Do you have hands blyat? You can carry shit you'll be aight
+            Yes
           </div>
         </div>
     </div>

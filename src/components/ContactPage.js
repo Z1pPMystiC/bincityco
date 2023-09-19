@@ -28,7 +28,7 @@ function ContactPage() {
                         Open:
                     </div>
                     <div className='contact-detail-text'>
-                        Whenever blyat
+                        Whenever
                     </div>
                 </div>
                 <div className='contact-detail'>
