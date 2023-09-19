@@ -44,7 +44,7 @@ function ContactPage() {
         <div className='visit-us-container'>
             <div className='visit-us-map-container'>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.480105521969!2d-89.60391948459588!3d40.68542277933485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880a59174d648437%3A0x96ac9743f579ee50!2s1000%20SW%20Jefferson%20Ave%2C%20Peoria%2C%20IL%2061605!5e0!3m2!1sen!2sus!4v1688670400291!5m2!1sen!2sus" 
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='visit-us-map'></iframe>
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='map' className='visit-us-map'></iframe>
             </div>
             <div className='visit-us-text-container'>
                 <div className='visit-us-title-text'>
