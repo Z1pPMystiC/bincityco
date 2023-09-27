@@ -30,7 +30,7 @@ function HomePage() {
                 </p>
             </div>
             <div className='large-img-container'>
-                <img src="/images/how-it-works.png" alt="how" className='large-img'/>
+                <img src="/images/peoria-baseball.jpg" alt="how" className='large-img'/>
             </div>
         </div>
         <div className='text-box-container'>
