@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './components/pages/Home';
-import FAQ from './components/pages/FAQ';
+import Services from './components/pages/Services';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Privacy from './components/pages/Privacy';
@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' exact Component={Home} />
-          <Route path='/faq' exact Component={FAQ} />
+          <Route path='/services' exact Component={Services} />
           <Route path='/about' exact Component={About} />
           <Route path='/contact' exact Component={Contact} />
           <Route path='/privacy-policy' exact Component={Privacy} />

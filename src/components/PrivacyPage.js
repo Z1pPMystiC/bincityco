@@ -9,7 +9,9 @@ function PrivacyPage() {
           <div className='privacy-title-text'>
               Privacy Policy
           </div>
-          <img src="/images/Transparent Logo Symbol.png" alt="logo" className='logo-title-img'/>
+          <div className='privacy-logo-container'>
+                <img src="/images/Transparent Logo Symbol.png" alt="logo" className='logo-title-img'/>
+            </div>
         </div>
         <div className='accent' />
         <div className='privacy-text'>

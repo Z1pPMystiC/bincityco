@@ -13,97 +13,92 @@ function HomePage() {
             <iframe className='youtube-vid' src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowFullscreen></iframe>
             <iframe className='youtube-vid' src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowFullscreen></iframe>
         </div> */}
+        <div className='text-box-container'>
+            <p className='text-box-text2'>
+                OPEN: FRIDAY-SUNDAY, 
+                <br/>10AM-6PM
+            </p>
+        </div>
+        <br />
         <div className='home-section-reverse-container'>
             <div className='large-img-container'>
                 <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
             </div>
             <div className='side-text-box-container'>
                 <p className='side-text-box-text'>
-                    ILLINOIS' PREMIER LIQUIDATION <br/> BIN STORE
+                    PEORIA'S PREMIER LIQUIDATION <br/> BIN STORE
                 </p>
             </div>
         </div>
         <div className='home-section-container'>
-            <div className='side-text-box-container'>
-                <p className='side2-text-box-text'>
-                    HOW DOES BIN CITY WORK?
-                </p>
+        <div className='question-container2'>
+            <div className='question-container'>
+                <div className='question-title-text'>
+                    Why Bin City?
+                </div>
+                <div className='accent' />
+                <div className='question-text'>
+                At Bin City, we understand the importance of offering our 
+                customers not just a shopping experience but a solution to 
+                their organizational needs.
+                </div>
             </div>
-            <div className='large-img-container'>
-                <img src="/images/peoria-baseball.jpg" alt="how" className='large-img'/>
+            </div>
+            <div className='img-grid-row-container2'>
+                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
+                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
             </div>
         </div>
-        <div className='text-box-container'>
-            <p className='text-box-text'>
-                BUY ANYTHING IN THE BINS FOR $9 OR LESS
-            </p>
-        </div>
-        <div className='img-grid-container'>
-            <div className='img-grid-row-container'>
-                <div className='img-grid-half-row-container'>
+        <div className='home-section-reverse-container'>
+            <div className='img-grid-row-container2'>
                     <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
                     <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                </div>
-                <div className='img-grid-half-row-container'>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
+            </div>
+            <div className='question-container2'>
+            <div className='question-container'>
+                <div className='question-text'>
+                    We pride ourselves on the variety of all 
+                    of our products, ranging from kitchen supplies, to children's 
+                    toys, to even top-of-the-line tech, all at a very affordable price.
                 </div>
             </div>
-            <div className='img-grid-row-container'>
-                <div className='img-grid-half-row-container'>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                </div>
-                <div className='img-grid-half-row-container'>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                </div>
-            </div>
-            <div className='img-grid-row-container'>
-                <div className='img-grid-half-row-container'>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                </div>
-                <div className='img-grid-half-row-container'>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                </div>
-            </div>
-            <div className='img-grid-row-container'>
-                <div className='img-grid-half-row-container'>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                </div>
-                <div className='img-grid-half-row-container'>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                </div>
             </div>
         </div>
         <div className='home-section-container'>
-        <div className='large-img-container'>
-            <img src="/images/weekly-pricing.png" alt="pricing" className='large-img'/>
+            <div className='question-container2'>
+                <div className='question-container'>
+                    <div className='question-text'>
+                    When you shop at Bin City, you can shop with 
+                    confidence. We're committed to offering only the highest quality 
+                    products. Each product undergoes rigorous quality control to ensure 
+                    durability and functionality.
+                    </div>
+                </div>
+            </div>
+            <div className='img-grid-row-container2'>
+                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
+                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
+            </div>
         </div>
-        <div className='large-img-container'>
-            <img src="/images/store-hours.png" alt="hours" className='large-img'/>
-        </div>
+        <div className='home-section-reverse-container'>
+            <div className='img-grid-row-container2'>
+                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
+                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
+            </div>
+            <div className='question-container2'>
+            <div className='question-container'>
+                <div className='question-text'>
+                Finally, we believe that quality shouldn't come at a 
+                premium. Our commitment to competitive pricing means you get 
+                the best value for your money. At Bin City, affordability meets 
+                quality without compromise.
+                </div>
+            </div>
+            </div>
         </div>
         <div className='text-box-container'>
             <p className='text-box-text'>
-                OUR STORE
-            </p>
-        </div>
-        <div className='large-imgs-container'>
-            <div className='large-img-container'>
-                <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
-            </div>
-            <div className='large-img-container'>
-                <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
-            </div>
-        </div>
-        <div className='text-box-container'>
-            <p className='text-box-text'>
-                GET IN TOUCH WITH US
+                FIND US HERE!
             </p>
         </div>
         <div className='contact-container'>

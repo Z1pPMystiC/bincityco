@@ -15,7 +15,11 @@
 .privacy-title-container {
     display: flex;
     justify-content: space-between;
-    height: 70px;
+}
+
+.privacy-logo-container {
+    display: flex;
+    align-items: center;
 }
 
 .privacy-title-text {
@@ -31,4 +35,9 @@
 .privacy-text {
     margin-top: 25px;
     color: #c5a975;
+}
+
+.logo-title-img {
+    width: 70px;
+    height: 70px;
 }

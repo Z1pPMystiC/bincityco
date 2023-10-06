@@ -3,29 +3,54 @@ import './AboutPage.css'
 
 function AboutPage() {
   return (
-    <div className='about-container'>
-        <div className='about-content-container'>
-            <div className='logo-about-container'>
-                <img src="/images/Transparent Logo.png" alt="logo" className='logo-about-img'/>
+    <div className='privacy-container'>
+        <div className='privacy-border'>
+            <div className='privacy-title-container'>
+                <div className='about-title-container'>
+                    <div className='about-title'>
+                        About Bin City
+                    </div>
+                </div>
+            <div className='privacy-logo-container'>
+                <img src="/images/Transparent Logo Symbol.png" alt="logo" className='logo-title-img'/>
             </div>
-            <div className='about-text-container'>
-                <div className='about-title'>
-                    About Bin City
-                </div>
-                <div className='about-text'>
-                    We are Illinois’ premier retail liquidation store. Offering exclusive products at 70-90% off retail MSRP prices from America’s top retailers. 
-                    <br/><br/><br/>
-                    Our mission is simple: provide the best product at the best price for our customers. At Bin City, you will find amazing products for unbelievable prices.
-                    <br/><br/><br/>
-                    With over 20 years of experience in the liquidation business, we have established proprietary channels to secure the best product at the best price from all large retailers.
-                    <br/><br/><br/>
-                    Our unique store format and pricing model ensure that all customers get the best deals possible.
-                    <br/><br/><br/>
-                    We look forward to having you at our store.
-                </div>
+            </div>
+            <div className='accent' />
+            <div className='about-text'>
+                Welcome to Bin City, your trusted destination for all things discounted 
+                in the heart of Peoria, Illinois. Our story is one rooted in a passion for 
+                simplifying lives and getting quality products in the hands of everyday people 
+                for a price that is sure to be easy on the wallet, and the conscious.
+                <br/><br/>
+                Founded with a vision to bring a diverse array of products into the hands of 
+                everyday consumers, Bin City Co was established by a team of dedicated 
+                professionals who shared a common goal: to offer products that 
+                enhance your daily life, at a fraction of their usual price.
+                <br/><br/>
+                At Bin City, our unwavering commitment to quality is the cornerstone 
+                of our philosophy. We meticulously source and curate our inventory to ensure 
+                that each item meets the highest standards of durability, functionality, and 
+                aesthetic appeal. This commitment to quality extends to our customer service, 
+                where our knowledgeable team is always eager to assist you.
+                <br/><br/>
+                We're more than just a store; we're your trusted partners in finding incredible 
+                deals and enhancing your life with quality products. Whether you're seeking items 
+                to upgrade your home, office, or personal collection, our experts are here to guide 
+                you to the perfect finds. We take pride in helping you discover the ideal product 
+                for every occasion.
+                <br/><br/>
+                Our About page is just the beginning of our story. We invite you to explore our 
+                store, meet our dedicated team, and uncover the wide-ranging products and services 
+                that have made Bin City a trusted and cherished name in our community.
+                <br/><br/>
+                Thank you for choosing Bin City as your go-to destination for quality 
+                products at unbeatable prices, paired with exceptional customer service. We eagerly 
+                look forward to serving you, connecting with you, and assisting you on your journey 
+                to an easier and more budget-conscious life.
             </div>
         </div>
     </div>
+    
   )
 }
 

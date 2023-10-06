@@ -32,10 +32,15 @@
     flex-direction: column;
     background-color: #262626;
     border: solid #c5a975;
-    width: 100%;
+    width: 75%;
     max-width: 1000px;
-    margin-top: 25px;
     padding: 25px;
+}
+
+.question-container2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .question-title-text {
@@ -54,5 +59,15 @@
 .question-text {
     font-size: 25px;
     color: #c5a975;
+}
+
+@media only screen and (max-width: 800px) {
+    .question-container {
+        width: 100%;
+    }
+
+    .question-container2 {
+        width: 100%;
+    }
 }
 

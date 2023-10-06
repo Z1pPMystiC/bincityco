@@ -27,13 +27,13 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/faq' className='nav-links' onClick={toggleMobileMenu}>
-                                FAQ
+                            <Link to='/about' className='nav-links' onClick={toggleMobileMenu}>
+                                About
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/about' className='nav-links' onClick={toggleMobileMenu}>
-                                About
+                            <Link to='/services' className='nav-links' onClick={toggleMobileMenu}>
+                                Services
                             </Link>
                         </li>
                         <li className='nav-item'>
