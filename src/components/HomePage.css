@@ -18,7 +18,9 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background-color: #555555;
+    animation-name: background-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     padding: 25px 0;
 }
 
@@ -312,6 +314,24 @@
         background-color: #c5a975;
         color: #262626;
         border: solid 5px #262626;
+    }
+}
+
+@keyframes background-anim {
+    0% {
+        background-color: #555555;
+    }
+    25% {
+        background-color: #262626;
+    }
+    50% {
+        background-color: #6b5d44;
+    }
+    75% {
+        background-color: #262626;
+    }
+    100% {
+        background-color: #555555;
     }
 }
 

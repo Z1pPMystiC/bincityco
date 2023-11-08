@@ -70,8 +70,7 @@ function HomePage() {
                     <div className='question-text'>
                     When you shop at Bin City, you can shop with 
                     confidence. We're committed to offering only the highest quality 
-                    products. Each product undergoes rigorous quality control to ensure 
-                    durability and functionality.
+                    products.
                     </div>
                 </div>
             </div>
@@ -109,19 +108,19 @@ function HomePage() {
             <div className='location-container'>
                 <div className='contact-text-big-container'>
                     <div className='location-text-container'>
-                        <p className='location-title-text'>
-                            LOCATION
-                        </p>
-                        <p className='location-text'>
-                            1000 SW Jefferson Ave, Peoria, IL 61605
-                        </p>
-                    </div>
-                    <div className='contact-text-container'>
                         <p className='contact-title-text'>
                             CONTACT US
                         </p>
                         <p className='contact-text'>
                             Email: <a href="mailto:info@bincityco.com?subject=I%20Just%20Saw%20Your%20Website%21" className='email'>info [at] bincityco [dot] com</a>
+                        </p>
+                    </div>
+                    <div className='contact-text-container'>
+                        <p className='location-title-text'>
+                            ADDRESS
+                        </p>
+                        <p className='location-text'>
+                            1000 SW Jefferson Ave, Peoria, IL 61605
                         </p>
                     </div>
                 </div>
