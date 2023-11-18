@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #555555;
     padding-bottom: 25px;
+    animation-name: background-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 .faq-title-container {
@@ -57,7 +59,7 @@
 }
 
 .question-text {
-    font-size: 25px;
+    font-size: 2.5vw;
     color: #c5a975;
 }
 
@@ -68,6 +70,29 @@
 
     .question-container2 {
         width: 100%;
+    }
+
+    .question-text {
+        font-size: 25px;
+        color: #c5a975;
+    }
+}
+
+@keyframes background-anim {
+    0% {
+        background-color: #555555;
+    }
+    25% {
+        background-color: #262626;
+    }
+    50% {
+        background-color: #6b5d44;
+    }
+    75% {
+        background-color: #262626;
+    }
+    100% {
+        background-color: #555555;
     }
 }
 

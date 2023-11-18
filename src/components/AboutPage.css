@@ -1,7 +1,9 @@
 .about-container {
     display: flex;
     align-items: center;
-    background-color: #555555;
+    animation-name: background-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     padding: 5%;
     width: 100%;
 }

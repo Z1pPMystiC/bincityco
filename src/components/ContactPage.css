@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #555555;
+    animation-name: background-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     padding-bottom: 100px;
 }
 
@@ -167,3 +169,4 @@
         aspect-ratio: 1 / 1;
     }
 }
+

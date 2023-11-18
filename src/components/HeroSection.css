@@ -52,3 +52,20 @@ html * {
         font-size: 25px;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .hero-section-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../../public/images/peoria-skyline.png");
+        background-position: 0 200px;
+        background-repeat: no-repeat;
+        background-size: 300%;
+        background-attachment: fixed;
+        background-color: #0b0d18;
+        position: relative;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: solid 2px #c5a975;
+    }
+}

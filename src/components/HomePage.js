@@ -22,7 +22,7 @@ function HomePage() {
         <br />
         <div className='home-section-reverse-container'>
             <div className='large-img-container'>
-                <img src="/images/chicago-skyline.jpg" alt="large-img" className='large-img'/>
+                <img src="/images/outside1.jpg" alt="large-img" className='large-img'/>
             </div>
             <div className='side-text-box-container'>
                 <p className='side-text-box-text'>
@@ -31,68 +31,64 @@ function HomePage() {
             </div>
         </div>
         <div className='home-section-container'>
-        <div className='question-container2'>
-            <div className='question-container'>
-                <div className='question-title-text'>
-                    Why Bin City?
+            <div className='question-container2'>
+                <div className='question-container'>
+                    <div className='question-title-text'>
+                        Why Bin City?
+                    </div>
+                    <div className='accent' />
+                    <div className='question-text'>
+                        At Bin City, we understand the importance of offering our 
+                        customers not just a shopping experience but a solution to 
+                        their organizational needs.
+                    </div>
                 </div>
-                <div className='accent' />
-                <div className='question-text'>
-                At Bin City, we understand the importance of offering our 
-                customers not just a shopping experience but a solution to 
-                their organizational needs.
-                </div>
-            </div>
             </div>
             <div className='img-grid-row-container2'>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
+                    <img src="/images/inside1.jpg" alt="logo" className='grid-img1'/>
             </div>
         </div>
         <div className='home-section-reverse-container'>
             <div className='img-grid-row-container2'>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
+                <img src="/images/inside2.jpg" alt="logo" className='grid-img2'/>
             </div>
             <div className='question-container2'>
-            <div className='question-container'>
-                <div className='question-text'>
-                    We pride ourselves on the variety of all 
-                    of our products, ranging from kitchen supplies, to children's 
-                    toys, to even top-of-the-line tech, all at a very affordable price.
+                <div className='question-container'>
+                    <div className='question-text'>
+                        We pride ourselves on the variety of all 
+                        of our products, ranging from kitchen supplies, to children's 
+                        toys, to even top-of-the-line tech, all at a very affordable price.
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
         <div className='home-section-container'>
             <div className='question-container2'>
                 <div className='question-container'>
                     <div className='question-text'>
-                    When you shop at Bin City, you can shop with 
-                    confidence. We're committed to offering only the highest quality 
-                    products.
+                        When you shop at Bin City, you can shop with 
+                        confidence. We're committed to offering only the highest quality 
+                        products.
                     </div>
                 </div>
             </div>
             <div className='img-grid-row-container2'>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
+                <img src="/images/opening1.jpg" alt="logo" className='grid-img2'/>
             </div>
         </div>
         <div className='home-section-reverse-container'>
             <div className='img-grid-row-container2'>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
-                    <img src="/images/chicago-skyline.jpg" alt="logo" className='grid-img'/>
+                <img src="/images/pricing1.jpg" alt="logo" className='grid-img2'/>
             </div>
             <div className='question-container2'>
-            <div className='question-container'>
-                <div className='question-text'>
-                Finally, we believe that quality shouldn't come at a 
-                premium. Our commitment to competitive pricing means you get 
-                the best value for your money. At Bin City, affordability meets 
-                quality without compromise.
+                <div className='question-container'>
+                    <div className='question-text'>
+                        Finally, we believe that quality shouldn't come at a 
+                        premium. Our commitment to competitive pricing means you get 
+                        the best value for your money. At Bin City, affordability meets 
+                        quality without compromise.
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
         <div className='text-box-container'>

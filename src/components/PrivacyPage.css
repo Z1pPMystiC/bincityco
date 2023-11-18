@@ -4,6 +4,9 @@
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #555555;
+    animation-name: background-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 .privacy-border {
@@ -40,4 +43,22 @@
 .logo-title-img {
     width: 70px;
     height: 70px;
+}
+
+@keyframes background-anim {
+    0% {
+        background-color: #555555;
+    }
+    25% {
+        background-color: #262626;
+    }
+    50% {
+        background-color: #6b5d44;
+    }
+    75% {
+        background-color: #262626;
+    }
+    100% {
+        background-color: #555555;
+    }
 }
