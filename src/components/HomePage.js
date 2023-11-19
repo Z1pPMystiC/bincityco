@@ -4,15 +4,6 @@ import './HomePage.css'
 function HomePage() {
   return (
     <div className='home-container'>
-        {/* <div className='featured-container'>
-            <p className='featured-text'>
-                Featured On:
-            </p>
-        </div>
-        <div className='video-container'>
-            <iframe className='youtube-vid' src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowFullscreen></iframe>
-            <iframe className='youtube-vid' src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowFullscreen></iframe>
-        </div> */}
         <div className='text-box-container'>
             <p className='text-box-text2'>
                 OPEN: FRIDAY-SUNDAY, 
@@ -20,16 +11,6 @@ function HomePage() {
             </p>
         </div>
         <br />
-        <div className='home-section-reverse-container'>
-            <div className='large-img-container'>
-                <img src="/images/outside1.jpg" alt="large-img" className='large-img'/>
-            </div>
-            <div className='side-text-box-container'>
-                <p className='side-text-box-text'>
-                    PEORIA'S PREMIER LIQUIDATION <br/> BIN STORE
-                </p>
-            </div>
-        </div>
         <div className='home-section-container'>
             <div className='question-container2'>
                 <div className='question-container'>
@@ -39,13 +20,13 @@ function HomePage() {
                     <div className='accent' />
                     <div className='question-text'>
                         At Bin City, we understand the importance of offering our 
-                        customers not just a shopping experience but a solution to 
-                        their organizational needs.
+                        customers more than a shopping experience - we aim to offer solutions 
+                        for an affordable price.
                     </div>
                 </div>
             </div>
             <div className='img-grid-row-container2'>
-                    <img src="/images/inside1.jpg" alt="logo" className='grid-img1'/>
+                    <img src="/images/about1.jpg" alt="logo" className='grid-img2'/>
             </div>
         </div>
         <div className='home-section-reverse-container'>

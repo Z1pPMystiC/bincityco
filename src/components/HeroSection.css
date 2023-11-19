@@ -3,19 +3,40 @@ html * {
 }
 
 .hero-section-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../../public/images/peoria-skyline.png");
-  background-position: 0 120px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: #0b0d18;
-  position: relative;
-  height: 75vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: solid 2px #c5a975;
-}
+    position: relative;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px #c5a975;
+    overflow: hidden; /* Ensure that the pseudo-element doesn't overflow */
+  }
+  
+  .hero-section-container::before {
+    content: ""; /* Create a pseudo-element */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; /* Send the pseudo-element to the background */
+    background-image: url("../../public/images/outside1.jpg");
+    background-position: -100px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .hero-section-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+  }
 
 .hero-section-text-container {
     display: flex;
