@@ -82,6 +82,12 @@
         font-size: 25px;
         color: #c5a975;
     }
+
+    .question-title-text1 {
+        font-size: 30px;
+        color: #c5a975;
+        text-align: center;
+    }
 }
 
 @keyframes background-anim {
