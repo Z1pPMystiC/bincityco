@@ -50,6 +50,12 @@
     color: #c5a975;
 }
 
+.question-title-text1 {
+    font-size: 4vw;
+    color: #c5a975;
+    text-align: center;
+}
+
 .accent {
     height: 5px;
     width: 75px;
