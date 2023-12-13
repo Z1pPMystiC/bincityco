@@ -43,7 +43,7 @@ function HomePage() {
         </div>
         <div className='home-section-reverse-container'>
             <div className='img-grid-row-container2'>
-                <img src="/images/inside2.jpg" alt="logo" className='grid-img2'/>
+                <img src="/images/inside3.jpg" alt="logo" className='grid-img2'/>
             </div>
             <div className='question-container2'>
                 <div className='question-container'>
@@ -66,7 +66,7 @@ function HomePage() {
                 </div>
             </div>
             <div className='img-grid-row-container2'>
-                <img src="/images/opening1.jpg" alt="logo" className='grid-img2'/>
+                <img src="/images/inside5.jpg" alt="logo" className='grid-img2'/>
             </div>
         </div>
         <div className='home-section-reverse-container'>

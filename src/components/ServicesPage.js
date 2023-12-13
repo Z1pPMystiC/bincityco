@@ -26,7 +26,7 @@ function ServicesPage() {
                     <img src="/images/inside2.jpg" alt="logo" className='grid-img3'/>
                 </div>
                 <div className='img-grid-half-row-container'>
-                    <img src="/images/opening1.jpg" alt="logo" className='grid-img3'/>
+                    <img src="/images/inside4.jpg" alt="logo" className='grid-img3'/>
                 </div>
             </div>
             <div className='img-grid-row-container'>
@@ -35,6 +35,14 @@ function ServicesPage() {
                 </div>
                 <div className='img-grid-half-row-container'>
                     <img src="/images/pricing1.jpg" alt="logo" className='grid-img3'/>
+                </div>
+            </div>
+            <div className='img-grid-row-container'>
+                <div className='img-grid-half-row-container'>
+                    <img src="/images/inside5.jpg" alt="logo" className='grid-img3'/>
+                </div>
+                <div className='img-grid-half-row-container'>
+                    <img src="/images/inside3.jpg" alt="logo" className='grid-img3'/>
                 </div>
             </div>
         </div>
