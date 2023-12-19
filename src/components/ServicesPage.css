@@ -56,6 +56,12 @@
     text-align: center;
 }
 
+.question-title-text2 {
+    font-size: 3.5vw;
+    color: #c5a975;
+    text-align: center;
+}
+
 .accent {
     height: 5px;
     width: 75px;
@@ -85,6 +91,12 @@
 
     .question-title-text1 {
         font-size: 30px;
+        color: #c5a975;
+        text-align: center;
+    }
+
+    .question-title-text2 {
+        font-size: 25px;
         color: #c5a975;
         text-align: center;
     }
