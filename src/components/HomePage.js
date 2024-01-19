@@ -11,19 +11,6 @@ function HomePage() {
             </p>
         </div>
         <br />
-        <div className='home-section-container'>
-        <div className='question-container2'>
-                <div className='question-container'>
-                    <div className='question-title-text2'>
-                        HAPPY HOLIDAYS FROM BIN CITY! <br/>
-                        HOLIDAY SCHEDULE AVAILABLE NOW!
-                    </div>
-                </div>
-            </div>
-            <div className='img-grid-row-container2'>
-                <img src="/images/schedule1.jpg" alt="logo" className='grid-img2'/>
-            </div>
-        </div>
         <div className='home-section-reverse-container'>
             <div className='img-grid-row-container2'>
                 <img src="/images/parking1.jpg" alt="logo" className='grid-img2'/>
