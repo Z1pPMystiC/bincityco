@@ -71,7 +71,7 @@ function HomePage() {
         </div>
         <div className='home-section-reverse-container'>
             <div className='img-grid-row-container2'>
-                <img src="/images/pricing1.jpg" alt="logo" className='grid-img2'/>
+                <img src="/images/pricing2.jpg" alt="logo" className='grid-img2'/>
             </div>
             <div className='question-container2'>
                 <div className='question-container'>
